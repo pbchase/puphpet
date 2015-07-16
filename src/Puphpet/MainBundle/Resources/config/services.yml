@@ -17,6 +17,7 @@ services:
         # system
             - [ addExtension, [ 'server' ] ]
             - [ addExtension, [ 'users-groups' ] ]
+            - [ addExtension, [ 'locale' ] ]
             - [ addExtension, [ 'firewall' ] ]
             - [ addExtension, [ 'cron' ] ]
         # web server
@@ -35,6 +36,7 @@ services:
             - [ addExtension, [ 'hhvm' ] ]
         # database
             - [ addExtension, [ 'mysql' ] ]
+            - [ addExtension, [ 'mariadb' ] ]
             - [ addExtension, [ 'postgresql' ] ]
             - [ addExtension, [ 'mongodb' ] ]
             - [ addExtension, [ 'redis' ] ]

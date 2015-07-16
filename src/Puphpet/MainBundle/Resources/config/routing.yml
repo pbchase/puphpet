@@ -59,6 +59,9 @@ puphpet.server:
 puphpet.users_groups:
     resource: "@PuphpetMainBundle/Resources/config/users-groups/routing.yml"
     prefix:   /extension/users-groups
+puphpet.locale:
+    resource: "@PuphpetMainBundle/Resources/config/locale/routing.yml"
+    prefix:   /extension/locale
 puphpet.firewall:
     resource: "@PuphpetMainBundle/Resources/config/firewall/routing.yml"
     prefix:   /extension/firewall
@@ -95,6 +98,9 @@ puphpet.hhvm:
 puphpet.mysql:
     resource: "@PuphpetMainBundle/Resources/config/mysql/routing.yml"
     prefix:   /extension/mysql
+puphpet.mariadb:
+    resource: "@PuphpetMainBundle/Resources/config/mariadb/routing.yml"
+    prefix:   /extension/mariadb
 puphpet.postgresql:
     resource: "@PuphpetMainBundle/Resources/config/postgresql/routing.yml"
     prefix:   /extension/postgresql
