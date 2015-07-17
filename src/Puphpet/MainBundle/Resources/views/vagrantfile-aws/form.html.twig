@@ -189,26 +189,6 @@
         <div class="clearfix"></div>
 
         <div class="form-group col-xs-6">
-            <div class="clearfix"><label>Public IP Address</label></div>
-
-            <label class="radio-tile mini set-width">
-                <span class="help-text">
-                If true, will associate a public IP address to an instance in a VPC.
-                </span>
-                <input type="checkbox" name="vagrantfile[vm][provider][aws][associate_public_ip]"
-                       class="invisible"
-                       {% if data.vm.provider.aws.associate_public_ip %}checked{% endif %}
-                       value="true" />
-                <span class="content">
-                    <span class="header">
-                        <i class="icon"></i>
-                        <span class="title">Associate Public IP Address</span>
-                    </span>
-                </span>
-            </label>
-        </div>
-
-        <div class="form-group col-xs-6">
             <div class="help-text">
                 Assign an elastic IP address to this instance.
                 <a href="https://console.aws.amazon.com/ec2/v2/home?Addresses#Addresses:sort=publicIp" target="_blank">Get them here</a>.

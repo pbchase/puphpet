@@ -15,8 +15,8 @@ vm:
             region: ~
             instance_type: ~
             security_groups: {}
+            subnet_id: ~
             elastic_ip: ~
-            associate_public_ip: ~
             tags:
                 Source: Puphpet
     provision:
